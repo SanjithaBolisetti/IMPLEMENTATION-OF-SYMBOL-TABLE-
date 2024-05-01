@@ -9,7 +9,8 @@
 5.	While reading, the input symbol is inserted into symbol table along with its memory address.
 6.	The steps are repeated till ‘$’ is reached.
 7.	To reach a variable, enter the variable to be searched and symbol table has been checked for corresponding variable, the variable along with its address is displayed as result.
-8.	Stop the program. 
+8.	Stop the program.
+
 # PROGRAM
 ```
 #include <stdio.h>
@@ -75,6 +76,7 @@ void main() {
         printf("\nSymbol Not Found");
 }
 ```
+
 # OUTPUT
 ![image](https://github.com/SanjithaBolisetti/IMPLEMENTATION-OF-SYMBOL-TABLE-/assets/119393633/36909727-a6c1-4f33-ac06-b0ce878e0d76)
 
